@@ -1,0 +1,338 @@
+%!TEX program = lualatex
+
+\documentclass[10pt,a4paper,sans]{moderncv} 
+
+%\moderncvstyle{banking}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-lcroman,es-notilde]{babel}
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+
+%----------------------------------------------------------------------------------------
+% Full/Short version
+%----------------------------------------------------------------------------------------
+\newif\iffullversion
+%\fullversiontrue
+\fullversionfalse
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\name{Victor}{Ramiro} % Your first name
+\title{Product Manager}
+\address{148 Boulevard Déodat de Séverac}{31300 Toulouse, France}
+\phone[mobile]{(+33) 645811920}
+\email{vramiro@gmail.com}
+\homepage{http://victor.cl}
+%\extrainfo{Birthdate: October 27, 1983}
+\photo[80pt][0.4pt]{VR2}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle
+
+% usage: \cvitem[spacing]{header}{text}
+% usage: \cventry[spacing]{years}{degree/job title}{institution/employer}{localization}{optionnal: grade/...}{optional: comment/job description}
+
+
+\section{In a glance}
+
+\cvitem{Experience}{More than 15 years of experience working with technology to built exciting and useful products}
+\cvitem{Professional skills}{Product strategy, Roadmap/planning, Agile methodologies (XP, Scrum, Kanban), UIX design, Software Development, Team management}
+\cvitem{Personal skills}{Leadership, Creative thinking, Problem solving, Reliable and professional, Effective communication, Dynamic, Team player, Fast learner, Motivated}
+\cvitem{Tech Skills}{Cloud architecture, Distributed Systems, Software Architecture, Networks, Programming Languages}
+
+%----------------------------------------------------------------------------------------
+
+\section{About me}
+With more than 15 years of experience, I've always been interested on leveraging technology to find out solutions to practical problems. As a PhD in computer science I have a deep technical understanding that I leverage to deliver high value products, that are useful to people, specially at the intersection of business and technology.
+
+I currently lead the cloud based solution to handle a fleet of autonomous vehicles at Easymile. I’ve been involved on the product definition since its conception and pushing for a coherent product strategy, defining the roadmap, following the execution and balancing both business and technical insights in order to add value to our solution.
+
+I love working at different levels of product development, from vision and strategy definition to application prototyping, architecting scalable systems, communicating to internal and external stakeholders, launching into production, helping teams of smart people to solve complex problems and help to focus on outcomes and added value rather than simply delivery.
+
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+
+\cventry
+{Apr 2018--\\Present}
+{Product Manager}
+{EasyMile}
+{Toulouse, France}
+{}
+{
+- Define product vision and strategy, on close interaction with key internal and external stakeholders, for the cloud solution for autonomous vehicles: Teleoperation Control Center, Fleet Management, Data pipeline, Communication infrastructure, Integration and APIs).\\
+- Build and orchestrate product roadmaps, ensuring execution excellence and timely delivery of product features (discovery, wireframing, specifications, acceptance criteria, testing).\\
+- Evangelize product at conferences, demos, workshops, etc.\\
+}
+
+\cventry
+{Oct 2017--\\Mar 2018}
+{Delivery Manager/Product Owner}
+{EasyMile}
+{Toulouse, France}
+{}
+{
+- Ensure the execution of the backlog and help interaction with other teams planning and integration.\\
+- Ensure the quality of the releases.\\
+- Organise the team in a scrum-like variant.\\
+}
+
+\cventry
+{Dec 2016--\\Sep 2017}
+{Senior Software Engineer}
+{EasyMile}
+{Toulouse, France}
+{}
+{
+- Development of the supervision system for driverless vehicles designed to cover short distances and predefined routes in multi-use environments.\\
+- Design and development of a real time mission management and telemetry system: Protocol specification, Transport control (MQTT).
+}
+
+
+\cventry
+{Oct 2015--\\Nov 2016}
+{Postdoc Researcher}
+{ISAE-SUPAERO}
+{Toulouse, France}
+{}
+{
+Lead researcher for the development of an Opportunistic network emulator under funding of a DGA/MRIS project (``Auto-monitoring de réseaux spontanés mobiles sans fil déployés sur les théâtres d'opérations'').\\
+}
+
+\cventry
+{Sep 2011--\\Sep 2015}
+{PhD Researcher}
+{ISAE-SUPAERO}
+{Toulouse, France}
+{}
+{
+- State of the art on delay tolerant networks and opportunistic networks.\\
+- Design and develop experiments to validate research hyphotesis to define a dynamic and mobile infrastructure for opportunistic networks.\\
+- Publication in international conferences and journals.\\
+}
+
+\cventry
+{Mar 2008--\\Aug 2011}
+{Technical lead}
+{NIC Chile Research lab}
+{Santiago, Chile}
+{}
+{
+- Lead the roadmap to deploy DNS Security extension (DNSSEC) at the .cl ccTLD level at NIC Chile.\\
+- Technical lead in the implementation of a distributed cryptographic backend service for DNSSEC.\\
+- Worked on the project definition to boostrap the INRIA Chile office.\\
+- Research lead to study the impact on Internet of the February 27 earthquake in Chile.\\
+- Worked on the National Internet quality monitoring service (Adkintun Chile).
+}
+
+\cventry
+{Sep 2010--\\Dec 2010}
+{Research Engineer}
+{ISAE-SUPAERO}
+{Toulouse, France}
+{}
+{
+Worked on ``Protocoles de communication adaptés aux réseaux dynamiques exposés au déconnexions''. Developed the STEPS mobility model to study Delay Tolerant Networks performance.
+}
+
+\cventry
+{Jul 2008--\\Feb 2009}
+{Software Engineer}
+{NIC Chile Research lab}
+{Santiago, Chile}
+{}
+{Study of DNS Security extension (DNSSEC) and setup of a testbed architecture for the .cl ccTLD.}
+
+\cventry
+{Jul 2008--\\Dec 2008}
+{CTO}
+{Do-Tank}
+{Santiago, Chile}
+{}
+{
+Startup providing credit broker services to consumers of microcredit (B2C). Main achievements:\\
+- Stablish a Lean product culture.\\
+- Define technical strategy.\\
+- Recruitment and mentoring of a team of 6 developers.\\
+- Bootstrap production and development environment.\\
+}
+
+\cventry
+{Mar 2008--\\Jun 2008}
+{Software Engineer}
+{Microsystem S.A.}
+{Santiago, Chile}
+{}
+{
+Process reengineering of documents' workflows.\\
+Main clients managed: Euroamerica Seguros and Concha y Toro. \\
+Platform used: Pectra workflow manager and IBM Content manager.\\
+}
+
+
+\cventry
+{1998--\\2007}
+{Freelance Developer}
+{}
+{Santiago, Chile}
+{}
+{
+Experience with several freelance projects:\\
+- Web development in LAMP platform.\\
+- Backend developer in J2EE, .NET (C\#/ASP/MS SQL Server).\\
+- Linux server configuration and administration.\\
+- Network management.\\
+}
+
+
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry
+{2012--2015}
+{PhD in Computer Science}
+{ISAE-SUPAERO - University of Toulouse}
+{Toulouse, France}
+{}
+{
+- Worked on routing and monitoring protocols for Delay tolerant networks based on a mobile and opportunistic infrastructure using temporal random walks.\\
+- Dissertation: ``Characterization and applications of temporal random walks over opportunistic networks''.\\
+- Publications: 3 articles in the IEEE International conference ``World of Wireless, Mobile and Multimedia Networks'', 1 journal article in Elsevier ``Computer Networks''.\\
+- Prix de thèse Fondation ISAE-SUPAERO 2016.
+}
+
+\cventry
+{2007--2009}
+{Master in Computer Science}
+{Universidad de Chile}
+{Santiago, Chile}
+{}
+{
+- Research visitor at Vrije Universiteit Brussel to develop a ``proximity framework'' into the AmbientTalk language, supporting service discovery based on first-class proximity.\\
+- Dissertation: ``An Open Proximity Model for Service Discovery in Pervasive Computing''.\\
+- Graduated with highest honor.
+}
+
+\cventry
+{2002--2006}
+{Computer Science Engineer}
+{Universidad de Chile}
+{Santiago, Chile}
+{}
+{
+- Graduated with highest honor.
+}
+
+%----------------------------------------------------------------------------------------
+
+\iffullversion
+\section{Academic Experience}
+\cventry
+{2012--2016}
+{Part-time professor}
+{ISAE-SUPAERO}
+{}
+{}
+{
+Teaching Introduction to Computer Science (Introducción a la Computación) to first year Engineering students. Courses taught in Java, Python and Matlab
+}
+
+\cventry
+{2010--2011}
+{Part-time 
+professor}
+{Universidad de Chile}
+{}
+{}
+{
+Introduction to Computer Science for the engineer program.
+}
+
+\cventry
+{2007--2010}
+{Invited Lecturer}
+{Universidad de Chile}
+{}
+{}
+{
+Programming Languages: ``Introduction to functional programming in Scheme''.
+}
+
+\cventry
+{2004-2011}
+{Teaching Assistant}
+{Universidad de Chile}
+{}
+{}
+{
+Introduction to Computer Science. Fall 2005, 2006, 2007, 2008.\\
+Design Seminar: IT based services. Fall 2004, Spring 2004, Summer 2004, Spring 2005.\\
+Programming Languages. Fall 2007, Spring 2009.\\
+Operating Systems. Fall 2011.\\
+Information Technology II (MBA coursus). Fall 2009.\\
+}
+
+\fi
+%----------------------------------------------------------------------------------------
+\iffullversion
+
+\section{Awards and Scholarship}
+\cvitem{2016}{Prix de thèse Fondation ISAE-SUPAERO 2016}
+\cvitem{2010}{Government Scholarship ``Becas Chile'' to fulfill a 4 years PhD outside of Chile}
+\cvitem{2010}{Best Graduated Student, Computer Science Department, University of Chile}
+\cvitem{2009}{Master thesis partially funded by Fondecyt (Chile) Grant 11060493: ``Modularization and Adaptation of Complex and Dynamic Software Systems''.}
+\cvitem{2008}{Master student scholarship Universidad de Chile}
+\cvitem{2007}{Master student internship scholarship at Vrije Universiteit Brussels, Belgium}
+\cvitem{2006-2007}{Outstanding Student Award, School of Engineering and Sciences, University of Chile.}
+
+
+\section{Leadership and Social Work}
+\cvitem{2007}{President of Computer Science Alumni group. Universidad de Chile}
+\cvitem{2007--2008}{Summer volunteer professor of maths and computer science at ``Jornadas Científico-Humanistas''. Ancud, Chile}
+\cvitem{1998--2001}{Chilean Linux User Group, Chile}
+
+\fi
+%----------------------------------------------------------------------------------------
+\section{Languages}
+
+\cvitemwithcomment{English}{Advanced}{Bilingual Proficiency (Certified by TOEFL and TOEIC tests)}
+\cvitemwithcomment{French}{Advanced}{Bilingual Proficiency}
+\cvitemwithcomment{Spanish}{Native language}{}
+
+%----------------------------------------------------------------------------------------
+\iffullversion
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\cvlistdoubleitem{Photography}{Music}
+\cvlistdoubleitem{Swimming}{Trekking}
+
+\fi
+%----------------------------------------------------------------------------------------
+\iffullversion
+
+\section{References}
+
+\cvitemwithcomment{}{Vincent Scesa, Autonomous Vehicles Program Manager at Easymile.}{}
+\cvitemwithcomment{}{Patrick Sénac, ENAC Research Director.}{}
+\cvitemwithcomment{}{Emmanuel Lochin, ENAC Professor.}{}
+\cvitemwithcomment{}{Tomás Barros, CEO E-Voting}{}
+\cvitemwithcomment{}{Jorge Armanet, CEO at Health Unlocked}{}
+
+\fi
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
